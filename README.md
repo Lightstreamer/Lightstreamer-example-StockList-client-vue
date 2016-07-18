@@ -6,7 +6,7 @@ This project contains a demo application showing the integration between the Lig
 ## Live Demo
 
 ![Demo ScreenShot](screen_basicstocklist_large.png)<br>
-###[![](http://demos.lightstreamer.com/site/img/play.png) View live demo](http://demos.lightstreamer.com)
+###[![](http://demos.lightstreamer.com/site/img/play.png) View live demo](http://demos.lightstreamer.com/VueDemo/)
 
 ## Details
 
