@@ -26,8 +26,9 @@ If you want to install a version of one of these demos pointing to your local Li
 
 * Note that, as prerequisite, the [Lightstreamer - Stock- List Demo - Java Adapter](https://github.com/Lightstreamer/Lightstreamer-example-Stocklist-adapter-java) has to be deployed on your local Lightstreamer Server instance. Please check out that project and follow the installation instructions provided with it.
 * Launch Lightstreamer Server.
-* Get the `lightstreamer.js` file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) and put it in the `src/[demo_name]/js` folder of the demo (if that is the case, please create it). Alternatively, you can build a `lightstreamer.js` file from the 
-  [online generator](http://www.lightstreamer.com/docs/client_javascript_tools/generator.html).
+* Get the `lightstreamer.js` file from [npm](https://www.npmjs.com/package/lightstreamer-client-web) or [unpkg](https://unpkg.com/lightstreamer-client-web/lightstreamer.js) and put it in the `src/[demo_name]/js` folder of the demo (if that is the case, please create it).
+  Alternatively, you can generate a customized lightstreamer.js library containing only the classes you actually use;
+  see the build instructions on the [GitHub page](https://github.com/Lightstreamer/Lightstreamer-lib-client-javascript#building).
   In that case, be sure to include the LightstreamerClient, Subscription, ConnectionSharing, and StatusWidget modules and to use the "Use namespaced globals" version.
 
 You can deploy these demos to use the Lightstreamer server as Web server or in any external Web Server you are running. 
