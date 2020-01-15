@@ -28,6 +28,7 @@ If you want to install a version of one of these demos pointing to your local Li
 * Launch Lightstreamer Server.
 * Build a `lightstreamer_globals.js` file from the [online generator](http://www.lightstreamer.com/docs/client_javascript_tools/generator.html) (see the compatibility notes below) and put it in the `src/assets` folder of the demo.
   Be sure to include the LightstreamerClient, Subscription, ConnectionSharing, and StatusWidget modules and to use the "Use globals" version.
+
 You can deploy these demos to use the Lightstreamer server as Web server or in any external Web Server you are running. 
 If you choose the former case, please create the folders `<LS_HOME>/pages/demos/[demo_name]` then copy here the contents of the `src/[demo_name]` folder of this project.<br>
 The client demos configuration assumes that Lightstreamer Server, Lightstreamer Adapters, and this client are launched on the same machine. If you need to target a different Lightstreamer server, please search this line:
