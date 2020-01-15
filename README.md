@@ -29,7 +29,7 @@ If you want to install a version of one of these demos pointing to your local Li
 * Get the `lightstreamer.js` file from [npm](https://www.npmjs.com/package/lightstreamer-client-web) or [unpkg](https://unpkg.com/lightstreamer-client-web/lightstreamer.js) and put it in the `src/js` folder of the demo (if that is the case, please create it).
   Alternatively, you can generate a customized lightstreamer.js library containing only the classes you actually use;
   see the build instructions on the [GitHub page](https://github.com/Lightstreamer/Lightstreamer-lib-client-javascript#building).
-  In that case, be sure to include the LightstreamerClient, Subscription, ConnectionSharing, and StatusWidget modules and to use the "Use namespaced globals" version.
+  In that case, be sure to include the LightstreamerClient, Subscription, ConnectionSharing, and StatusWidget modules.
 
 You can deploy these demos to use the Lightstreamer server as Web server or in any external Web Server you are running. 
 If you choose the former case, please create the folders `<LS_HOME>/pages/demos/[demo_name]` then copy here the contents of the `src/[demo_name]` folder of this project.<br>
