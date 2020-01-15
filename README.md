@@ -26,10 +26,8 @@ If you want to install a version of one of these demos pointing to your local Li
 
 * Note that, as prerequisite, the [Lightstreamer - Stock- List Demo - Java Adapter](https://github.com/Lightstreamer/Lightstreamer-example-Stocklist-adapter-java) has to be deployed on your local Lightstreamer Server instance. Please check out that project and follow the installation instructions provided with it.
 * Launch Lightstreamer Server.
-* Get the `lightstreamer.js` file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) and put it in the `src/[demo_name]/js` folder of the demo (if that is the case, please create it). Alternatively, you can build a `lightstreamer.js` file from the 
-  [online generator](http://www.lightstreamer.com/docs/client_javascript_tools/generator.html).
-  In that case, be sure to include the LightstreamerClient, Subscription, ConnectionSharing, and StatusWidget modules and to use the "Use namespaced globals" version.
-
+* Build a `lightstreamer_globals.js` file from the [online generator](http://www.lightstreamer.com/docs/client_javascript_tools/generator.html) (see the compatibility notes below) and put it in the `src/assets` folder of the demo.
+  Be sure to include the LightstreamerClient, Subscription, ConnectionSharing, and StatusWidget modules and to use the "Use globals" version.
 You can deploy these demos to use the Lightstreamer server as Web server or in any external Web Server you are running. 
 If you choose the former case, please create the folders `<LS_HOME>/pages/demos/[demo_name]` then copy here the contents of the `src/[demo_name]` folder of this project.<br>
 The client demos configuration assumes that Lightstreamer Server, Lightstreamer Adapters, and this client are launched on the same machine. If you need to target a different Lightstreamer server, please search this line:
@@ -56,4 +54,6 @@ The demo is now ready to be launched.
 
 ## Lightstreamer Compatibility Notes
 
-* Compatible with Lightstreamer Web Client library version 6.0 or newer.
+* Compatible with Lightstreamer JavaScript Client library version 8.0 or newer.
+
+* For a version of this example compatible with Lightstreamer SDK for JavaScript Clients version 7.x or earlier, please refer to [this tag](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-angular2/releases/tag/latest-for-client-7.x).
