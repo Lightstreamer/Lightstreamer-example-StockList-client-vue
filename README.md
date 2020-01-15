@@ -55,6 +55,4 @@ The demo is now ready to be launched.
 
 ## Lightstreamer Compatibility Notes
 
-* Compatible with Lightstreamer JavaScript Client library version 8.0 or newer.
-
-* For a version of this example compatible with Lightstreamer SDK for JavaScript Clients version 7.x or earlier, please refer to [this tag](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-angular2/releases/tag/latest-for-client-7.x).
+* Compatible with Lightstreamer Web Client library version 6.0 or newer.
