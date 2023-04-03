@@ -41,7 +41,6 @@ function lsConnect() {
 
     lsClient = new Lightstreamer.LightstreamerClient(protocolToUse+"//localhost:"+portToUse,"DEMO");
 
-    lsClient.connectionSharing.enableSharing("DemoCommonConnection", "ATTACH", "CREATE");
     lsClient.addListener(new Lightstreamer.StatusWidget("left", "0px", true));
 
     lsClient.addListener({
