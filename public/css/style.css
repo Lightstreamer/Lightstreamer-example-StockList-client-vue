@@ -1,0 +1,32 @@
+#wrap {
+  margin: 0 auto;
+  width: 1060px;
+}
+#content {
+  clear:both;
+  padding-top:12px;
+  height: 333px;
+}
+#title {
+  /* font-family: Verdana, Arial, Helvetica, Sans-serif; */
+  font-size: 9pt;
+  font-weight: bold;
+  text-align: right;
+  padding-top: 25px;
+  padding-left: 120px;
+}
+.desc {
+  font-size: 9pt;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  position: relative;
+  top: 24px;
+}
+#divLogos {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between;
+}
+#app {
+  padding-top: 38px;
+}
