@@ -10,7 +10,7 @@
   "dependencies": {
     "ag-grid-community": "^29.3.3",
     "ag-grid-vue3": "^29.3.3",
-    "lightstreamer-client-web": "^9.0.0-beta.3",
+    "lightstreamer-client-web": "^9.0.0-beta.4",
     "vue": "^3.2.47"
   },
   "devDependencies": {
